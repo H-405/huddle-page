@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    color: white;
+}
+
+.btn {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border-radius: 30px;
+}
+
+@media (max-width: 992px) {
+    .custom-class {
+        text-align: center;
+    }
+    .wrapper {
+        padding-right: 97px;
+    }
+}
+
+.icon {
+    width: 10%;
+    
+}
+
+.wrapper {
+    text-align: right;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:hover {
+    color: hsl(300, 69%, 71%);
+}
